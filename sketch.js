@@ -73,10 +73,8 @@ function draw() {
   ball.display("darkblue", "orange");
   textSize(35);
   fill(0);
-  text("DRAG AND RELEASE THE BALL TO DESTROY THE BOXES", 150, 385)
   fill("orange");
   textSize(20);
-  text("PRESS SPACE FOR A SECOND CHANCE !!",20,20)
 }
 
 function mouseDragged() {
