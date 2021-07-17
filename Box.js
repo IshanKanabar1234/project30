@@ -21,7 +21,7 @@ class Box {
             rotate(angle);
             fill(color);
             stroke(border);
-            strokeWeight(4);
+            strokeWeight(0);
             rect(0, 0, this.width, this.height);
             pop();
         } else {
